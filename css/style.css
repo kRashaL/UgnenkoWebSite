@@ -1,0 +1,126 @@
+hnml, body {
+    font-family: impact, Arial, sans-serif;
+}
+
+.header {
+}
+.container {
+    background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(201,214,255,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.header__nav {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 30px;
+    color: blue;
+}
+.header__list {
+    display: flex;
+
+}
+.header__list a {
+    margin-right: 30px;
+}
+.header__list-it {
+}
+
+.head {
+
+}
+.head__title {
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.head__content{
+    width: 800px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.head__paragraph{
+    text-align: center;
+
+}
+.head__img{
+    margin-top: 50px;
+}
+.head__image {
+    width: 800px;
+    overflow: hidden;
+}
+.head__table {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.table {
+    text-decoration: none;
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+}
+.table th{
+    font-weight: 500;
+    font-family: 5;
+    font-size: 11px; 
+    color:#ffffff;
+    background-color:#000000;
+}
+.table td{
+    font-family: impact;
+    font-weight: 500;
+    font-size:11px;
+    color:#000000;
+}
+.table td,.table th{
+    white-space:pre-wrap;
+    padding: 7px 5px;
+    line-height:13px;
+    vertical-align: middle;
+    border: 1px solid #000000;
+}
+
+.teacher__list{
+    margin: auto 0;
+    margin-right: 50px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+}
+.teacher__list li {
+    margin-bottom: 15px;
+}
+.teacher__list li:last-child {
+    margin-bottom: 0px;
+}
+.teacher__title {
+    font-size: 35px;
+    font-family: impact;
+    font-weight: medium;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.teacher {
+}
+.content {
+    display: flex;
+}
+.content img {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.nav {
+    margin-left: 22px;
+    display: block;
+    font-size: 35px;
+    font-family: impact;
+    font-weight: medium;
+}

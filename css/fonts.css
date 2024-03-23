@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "impact";
+    src: local("impact"),
+        local("AntipastoPro-Regular"),
+        url("../fonts/impact.woff2") format('woff2'),
+        url("../fonts/impact.woff") format('woff'),
+        url("../fonts/impact.eot") format('eot');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;  				 
+}
+
+@font-face {
+    font-family: "Arial";
+    src: local("ArialMdmItl"),
+        local("ArialMdmItl"),
+        url("../fonts/ArialMdmItl.woff2") format('woff2'),
+        url("../fonts/ArialMdmItl.woff") format('woff'),
+        url("../fonts/ArialMdmItl.eot") format('eot');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;  				 
+}
